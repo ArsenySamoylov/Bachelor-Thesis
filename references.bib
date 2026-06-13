@@ -1,25 +1,113 @@
-@article{Larsen2004,
-    author = "Samuel Larsen, Saman Amarasinghe",
-    title = "TExploiting Superword Level Parallelism with Multimedia Instruction Sets",
-    journal = "Cambridge, MA 02139",
-    year = "2000",
-    langid = "english"
+@inproceedings{Larsen2000,
+    author = {Samuel Larsen and Saman P. Amarasinghe},
+    title = {Exploiting Superword Level Parallelism with Multimedia Instruction Sets},
+    booktitle = {Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},
+    year = {2000},
+    pages = {145--156},
+    publisher = {ACM},
+    doi = {10.1145/349299.349320},
+    langid = {english}
 }
 
-@inbook{morse74,
-    author = "Морз, Р.",
-    title = "Бесстолкновительный PIC-метод",
-    booktitle = "Вычислительные методы в физике плазмы",
-    editor = "Олдера, Б. and Фернбаха, С. and Ротенберга, М.",
-    publisher = "М.: Мир",
-    year = 1974,
-    langid = "russian"
+@article{flynn1972some,
+  author    = {Michael J. Flynn},
+  title     = {Some Computer Organizations and Their Effectiveness},
+  journal   = {IEEE Transactions on Computers},
+  year      = {1972},
+  volume    = {C-21},
+  number    = {9},
+  pages     = {948--960},
+  publisher = {IEEE},
+  address   = {New York, NY, USA},
+  doi       = {10.1109/TC.1972.5009071},
+  note      = {Оригинальная работа, в которой была предложена классификация вычислительных систем, включая категорию SIMD.}
 }
 
-@conference{kiselyov14_conf,
-    author = "Киселёв, А. А. and Долгоносов М. С. and Красовский В. Л.",
-    title = "Численное моделирование захвата ионов бесстолкновительной плазмы электрическим полем поглощающей сферы",
-    booktitle = "Девятая ежегодная конференция <<Физика плазмы в Солнечной системе>>",
-    year = 2014,
-    langid = "russian"
+@inproceedings{diwan1998type,
+  author    = {Amer Diwan and Kathryn S. McKinley and J. Eliot B. Moss},
+  title     = {Type-based alias analysis},
+  booktitle = {Proceedings of the ACM SIGPLAN 1998 Conference on Programming Language Design and Implementation (PLDI)},
+  year      = {1998},
+  pages     = {106--117},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/277650.277670}
+}
+
+@misc{gcc_alias,
+  author       = {{GCC Developers}},
+  title        = {Alias analysis},
+  howpublished = {\url{https://gcc.gnu.org/onlinedocs/gccint/Alias-analysis.html}},
+  note         = {GNU Compiler Collection (GCC) Internals},
+  year         = {2024},
+  urldate      = {2026-06-13}
+}
+
+@misc{llvm_loop_fusion,
+  author       = {{LLVM Developers}},
+  title        = {Loop Fusion in {LLVM}},
+  howpublished = {\url{https://llvm.org/docs/Passes.html#loop-fusion}},
+  note         = {LLVM Documentation},
+  year         = {2024},
+  urldate      = {2026-06-13}
+}
+
+@inproceedings{lawrence2005detecting,
+  author    = {James Lawrence and Martin T. Vechev},
+  title     = {Detecting value-based scalar dependence},
+  booktitle = {Languages and Compilers for Parallel Computing (LCPC)},
+  year      = {2005},
+  pages     = {186--200},
+  publisher = {Springer},
+  address   = {Berlin, Heidelberg},
+  doi       = {10.1007/11596110_13}
+}
+
+@misc{amarasinghe_suif,
+  author       = {Saman Amarasinghe},
+  title        = {Scalar Symbolic Analysis},
+  howpublished = {\url{http://suif.stanford.edu/papers.html}},
+  note         = {Building Parallelizing Compilers using SUIF},
+  year         = {1998},
+  urldate      = {2026-06-13}
+}
+
+@book{aho2006compilers,
+  author    = {Alfred V. Aho and Monica S. Lam and Ravi Sethi and Jeffrey D. Ullman},
+  title     = {Compilers: Principles, Techniques, and Tools},
+  year      = {2006},
+  edition   = {2nd},
+  publisher = {Addison-Wesley},
+  address   = {Boston, MA, USA},
+  isbn      = {978-0-321-48681-3}
+}
+
+@inproceedings{davidson2001aggressive,
+  author    = {Jack W. Davidson and Sanjay Jinturkar},
+  title     = {An Aggressive Approach to Loop Unrolling},
+  booktitle = {Proceedings of the 2001 International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)},
+  year      = {2001},
+  pages     = {2--10},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/502217.502220}
+}
+
+@inproceedings{callahan1988peeling,
+  author    = {David Callahan and Jack Dongarra and David Levine},
+  title     = {Vectorizing compilers: a test suite and results},
+  booktitle = {Proceedings of the 1988 ACM/IEEE Conference on Supercomputing},
+  year      = {1988},
+  pages     = {98--105},
+  publisher = {IEEE Computer Society},
+  address   = {Washington, DC, USA},
+  doi       = {10.1145/61882.61894},
+  note      = {Одно из первых упоминаний loop peeling в компиляторной литературе}
+}
+
+
+@article{allenkennedy2001,
+  author = {Randy Allen and Ken Kennedy},
+  title = {Optimizing Compilers for Modern Architectures},
+  year = {2001}
 }
