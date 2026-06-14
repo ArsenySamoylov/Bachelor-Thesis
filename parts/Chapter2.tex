@@ -83,7 +83,7 @@ for i := 0; i < n; i++ {
 Эффективность цикловой векторизации определяется возможностью доказать отсутствие межитерационных зависимостей. Для этого компилятор выполняет:
 \begin{itemize}
     \item анализ псевдонимов памяти (alias analysis) ~\cite{diwan1998type, gcc_alias};
-    \item анализ межитерационных зависимостей (loop-carried dependence analysis) ~\cite{llvm_loop_fusion, lawrence2005detecting, amarasinghe_suif};
+    \item анализ межитерационных зависимостей (loop-carried dependence analysis) ~\cite{devan_loop_dependence};
 \end{itemize}
 
 А также вспомогательные преобразования:

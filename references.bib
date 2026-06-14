@@ -20,7 +20,6 @@
   publisher = {IEEE},
   address   = {New York, NY, USA},
   doi       = {10.1109/TC.1972.5009071},
-  note      = {Оригинальная работа, в которой была предложена классификация вычислительных систем, включая категорию SIMD.}
 }
 
 @inproceedings{diwan1998type,
@@ -39,37 +38,23 @@
   title        = {Alias analysis},
   howpublished = {\url{https://gcc.gnu.org/onlinedocs/gccint/Alias-analysis.html}},
   note         = {GNU Compiler Collection (GCC) Internals},
-  year         = {2024},
   urldate      = {2026-06-13}
 }
 
-@misc{llvm_loop_fusion,
+
+@misc{llvm_scev,
   author       = {{LLVM Developers}},
   title        = {Loop Fusion in {LLVM}},
   howpublished = {\url{https://llvm.org/docs/Passes.html#loop-fusion}},
   note         = {LLVM Documentation},
-  year         = {2024},
   urldate      = {2026-06-13}
 }
 
-@inproceedings{lawrence2005detecting,
-  author    = {James Lawrence and Martin T. Vechev},
-  title     = {Detecting value-based scalar dependence},
+@inproceedings{devan_loop_dependence,
+  author    = {Devan, Pradip and Kamat, R.K.},
+  title     = {A Review - LOOP Dependence Analysis for Parallelizing Compiler},
   booktitle = {Languages and Compilers for Parallel Computing (LCPC)},
-  year      = {2005},
-  pages     = {186--200},
-  publisher = {Springer},
-  address   = {Berlin, Heidelberg},
-  doi       = {10.1007/11596110_13}
-}
-
-@misc{amarasinghe_suif,
-  author       = {Saman Amarasinghe},
-  title        = {Scalar Symbolic Analysis},
-  howpublished = {\url{http://suif.stanford.edu/papers.html}},
-  note         = {Building Parallelizing Compilers using SUIF},
-  year         = {1998},
-  urldate      = {2026-06-13}
+  year      = {2014},
 }
 
 @book{aho2006compilers,
@@ -87,7 +72,6 @@
   title     = {An Aggressive Approach to Loop Unrolling},
   booktitle = {Proceedings of the 2001 International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)},
   year      = {2001},
-  pages     = {2--10},
   publisher = {ACM},
   address   = {New York, NY, USA},
   doi       = {10.1145/502217.502220}
@@ -102,14 +86,12 @@
   publisher = {IEEE Computer Society},
   address   = {Washington, DC, USA},
   doi       = {10.1145/61882.61894},
-  note      = {Одно из первых упоминаний loop peeling в компиляторной литературе}
 }
 
 @misc{golang_compile_doc,
    author = {Go Team},
    title  = {Introduction to the Go compiler (pkg.go.dev)},
    howpublished = {\url{https://pkg.go.dev/cmd/compile}},
-   note   = {cmd/compile contains the main packages that form the Go compiler.},
    year   = {2026},
    urldate = {2026-06-13}
 }
@@ -127,5 +109,6 @@
   title        = {cmd/compile: add SLP vectorization pass},
   howpublished = {\url{https://go-review.googlesource.com/c/go/+/783220}},
   year         = {2026},
-  urldate      = {2026-06-13}
+  urldate      = {2026-06-13},
+  note         = {Код SLP векторизатора}
 }
